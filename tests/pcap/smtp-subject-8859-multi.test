@@ -1,0 +1,183 @@
+{
+   "packets" : [
+      {
+         "header" : {
+            "index" : {
+               "_index" : "tests_sessions-131212",
+               "_type" : "session"
+            }
+         },
+         "body" : {
+            "no" : "test",
+            "mac1-term-cnt" : 1,
+            "euacnt" : 1,
+            "a1" : "10.180.156.249",
+            "psl" : [
+               90,
+               90,
+               82,
+               153,
+               82,
+               110,
+               82,
+               262,
+               118,
+               113,
+               121,
+               124,
+               82,
+               128,
+               82,
+               818,
+               82,
+               85,
+               82,
+               114,
+               82,
+               88,
+               82,
+               173,
+               82,
+               82,
+               82,
+               82
+            ],
+            "pa1" : 14,
+            "mac2-term" : [
+               "00:00:0c:07:ac:01",
+               "00:0e:d6:0b:98:80"
+            ],
+            "mac1-term" : [
+               "00:13:72:c4:f1:e1"
+            ],
+            "by2" : 1425,
+            "fb1" : "45484c4f20787878",
+            "ehhcnt" : 10,
+            "lp" : 1386877498,
+            "mac2-term-cnt" : 2,
+            "aseip" : [
+               "---"
+            ],
+            "ss" : 1,
+            "rir2" : "ARIN",
+            "as2" : "AS1668 Transit Data Network",
+            "db2" : 493,
+            "a2" : "64.236.64.225",
+            "esrc" : [
+               "xxxxx@xxx.net"
+            ],
+            "eip" : [
+               "127.0.0.1"
+            ],
+            "ta" : [
+               "smtp:statuscode:250"
+            ],
+            "ect" : [
+               "text/plain; charset=us-ascii"
+            ],
+            "db1" : 848,
+            "lpd" : 1386877498208,
+            "pr" : 6,
+            "fp" : 1386877497,
+            "ps" : [
+               24,
+               114,
+               204,
+               286,
+               439,
+               521,
+               631,
+               713,
+               975,
+               1093,
+               1206,
+               1327,
+               1451,
+               1533,
+               1661,
+               1743,
+               2561,
+               2643,
+               2728,
+               2810,
+               2924,
+               3006,
+               3094,
+               3176,
+               3349,
+               3431,
+               3513,
+               3595
+            ],
+            "pa" : 28,
+            "by" : 3205,
+            "esrccnt" : 1,
+            "emvcnt" : 1,
+            "esub" : [
+               "4spaces    å é î ø ü     5spaces"
+            ],
+            "eid" : [
+               "20131212194457.GA7990@xxx.net"
+            ],
+            "sl" : 302,
+            "ehocnt" : 2,
+            "p1" : 51650,
+            "tags-term" : [
+               "smtp:statuscode:250"
+            ],
+            "rireip" : [
+               ""
+            ],
+            "p2" : 25,
+            "pa2" : 14,
+            "edstcnt" : 1,
+            "fpd" : 1386877497906,
+            "esubcnt" : 1,
+            "ehh" : [
+               "content-type",
+               "message-id",
+               "mime-version",
+               "from",
+               "to",
+               "user-agent",
+               "received",
+               "content-disposition",
+               "date",
+               "subject"
+            ],
+            "eidcnt" : 1,
+            "db" : 1341,
+            "eho" : [
+               "localhost",
+               "xxxxxxxxxxxxx.xxx.com"
+            ],
+            "g1" : "USA",
+            "emv" : [
+               "1.0"
+            ],
+            "prot-term" : [
+               "smtp",
+               "tcp"
+            ],
+            "fb2" : "3232302078787878",
+            "edst" : [
+               "xxxxxxxxx@xxxxxxx.com"
+            ],
+            "eua" : [
+               "Mutt/1.5.20 (2009-12-10)"
+            ],
+            "tacnt" : 1,
+            "prot-term-cnt" : 2,
+            "ectcnt" : 1,
+            "fs" : [],
+            "by1" : 1780,
+            "eipcnt" : 1,
+            "g2" : "USA",
+            "geip" : [
+               "---"
+            ]
+         }
+      }
+   ]
+}
+

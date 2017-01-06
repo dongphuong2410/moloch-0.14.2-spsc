@@ -1,0 +1,632 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABORT	debug.h	38;"	d
+ABS	fp_tcp.c	1056;"	d	file:
+ALLOC_BUCKETS	alloc-inl.h	279;"	d
+ALLOC_C	alloc-inl.h	34;"	d
+ALLOC_CHECK_RESULT	alloc-inl.h	26;"	d
+ALLOC_CHECK_SIZE	alloc-inl.h	21;"	d
+ALLOC_MAGIC	alloc-inl.h	31;"	d
+ALLOC_MAGIC_F	alloc-inl.h	32;"	d
+ALLOC_OFF	alloc-inl.h	60;"	d
+ALLOC_OFF	alloc-inl.h	62;"	d
+ALLOC_S	alloc-inl.h	35;"	d
+ALLOC_TRK_CHUNK	alloc-inl.h	280;"	d
+API_MAX_CONN	config.h	55;"	d
+API_MODE	config.h	35;"	d
+CC	tools/Makefile	/^CC      = gcc$/;"	m
+CFLAGS	tools/Makefile	/^CFLAGS  = -g -ggdb -Wall -Wno-format -funsigned-char$/;"	m
+CF_MOD_HTTP	readfp.h	20;"	d
+CF_MOD_MTU	readfp.h	19;"	d
+CF_MOD_TCP	readfp.h	18;"	d
+CF_NEED_LABEL	readfp.h	25;"	d
+CF_NEED_SECT	readfp.h	24;"	d
+CF_NEED_SIG	readfp.h	27;"	d
+CF_NEED_SYS	readfp.h	26;"	d
+CHECK_PTR	alloc-inl.h	37;"	d
+CHECK_PTR_EXPR	alloc-inl.h	47;"	d
+CHECK_UAF	config.h	66;"	d
+CONN_MAX_AGE	config.h	48;"	d
+CP	alloc-inl.h	54;"	d
+CP	alloc-inl.h	56;"	d
+D	tools/p0f-sendsyn.c	89;"	d	file:
+D	tools/p0f-sendsyn6.c	103;"	d	file:
+DEBUG	debug.h	18;"	d
+DEBUG	debug.h	20;"	d
+DFL_ck_alloc	alloc-inl.h	/^static inline void* DFL_ck_alloc(u32 size) {$/;"	f
+DFL_ck_free	alloc-inl.h	/^static inline void DFL_ck_free(void* mem) {$/;"	f
+DFL_ck_memdup	alloc-inl.h	/^static inline void* DFL_ck_memdup(void* mem, u32 size) {$/;"	f
+DFL_ck_memdup_str	alloc-inl.h	/^static inline u8* DFL_ck_memdup_str(u8* mem, u32 size) {$/;"	f
+DFL_ck_realloc	alloc-inl.h	/^static inline void* DFL_ck_realloc(void* orig, u32 size) {$/;"	f
+DFL_ck_realloc_kb	alloc-inl.h	/^static inline void* DFL_ck_realloc_kb(void* orig, u32 size) {$/;"	f
+DFL_ck_strdup	alloc-inl.h	/^static inline u8* DFL_ck_strdup(u8* str) {$/;"	f
+EOL	tools/p0f-sendsyn.c	91;"	d	file:
+EOL	tools/p0f-sendsyn6.c	105;"	d	file:
+ERRORF	debug.h	23;"	d
+EXPIRE_INTERVAL	config.h	153;"	d
+FATAL	debug.h	31;"	d
+FLOW_BUCKETS	config.h	145;"	d
+FP_FILE	config.h	23;"	d
+HDR_AL	fp_http.c	116;"	d	file:
+HDR_DAT	fp_http.c	119;"	d	file:
+HDR_SRV	fp_http.c	115;"	d	file:
+HDR_UA	fp_http.c	114;"	d	file:
+HDR_VIA	fp_http.c	117;"	d	file:
+HDR_XFF	fp_http.c	118;"	d	file:
+HOST_BUCKETS	config.h	149;"	d
+HOST_IDLE_LIMIT	config.h	49;"	d
+HTTP_MAX_DATE_DIFF	config.h	188;"	d
+HTTP_MAX_HDRS	config.h	172;"	d
+HTTP_MAX_HDR_NAME	config.h	176;"	d
+HTTP_MAX_HDR_VAL	config.h	180;"	d
+HTTP_MAX_SHOW	config.h	184;"	d
+HTTP_MAX_URL	config.h	168;"	d
+IP4_DF	tcp.h	62;"	d
+IP4_MBZ	tcp.h	61;"	d
+IP4_MF	tcp.h	63;"	d
+IP_TOS_CE	tcp.h	30;"	d
+IP_TOS_ECT	tcp.h	31;"	d
+IP_VER4	tcp.h	25;"	d
+IP_VER6	tcp.h	26;"	d
+KILL_PERCENT	config.h	78;"	d
+LANG_HASH	languages.h	18;"	d
+LDFLAGS	tools/Makefile	/^LDFLAGS =$/;"	m
+LOCAL_TTL_LIMIT	config.h	128;"	d
+LOGF	p0f.c	112;"	d	file:
+LOG_MODE	config.h	29;"	d
+MAX	types.h	28;"	d
+MAX_ALLOC	config.h	74;"	d
+MAX_CONN	config.h	41;"	d
+MAX_DIST	config.h	61;"	d
+MAX_FLOW_DATA	config.h	86;"	d
+MAX_HOSTS	config.h	42;"	d
+MAX_LANG	languages.h	16;"	d
+MAX_NAT_TS	config.h	114;"	d
+MAX_TCP_OPT	config.h	90;"	d
+MAX_TSCALE	config.h	97;"	d
+MAX_TWAIT	config.h	105;"	d
+MAYBE_CM	fp_tcp.c	840;"	d	file:
+MAYBE_CM	fp_tcp.c	865;"	d	file:
+MIN	types.h	27;"	d
+MIN_PORT_DROP	config.h	118;"	d
+MIN_TCP4	tcp.h	138;"	d
+MIN_TCP6	tcp.h	139;"	d
+MIN_TSCALE	config.h	96;"	d
+MIN_TWAIT	config.h	104;"	d
+MSS	tools/p0f-sendsyn.c	93;"	d	file:
+MSS	tools/p0f-sendsyn6.c	107;"	d	file:
+NAME_CHARS	config.h	158;"	d
+NAT_APP_DATE	process.h	154;"	d
+NAT_APP_LB	process.h	152;"	d
+NAT_APP_SIG	process.h	142;"	d
+NAT_APP_UA	process.h	155;"	d
+NAT_APP_VIA	process.h	153;"	d
+NAT_FUZZY	process.h	149;"	d
+NAT_MSS	process.h	150;"	d
+NAT_OS_SIG	process.h	143;"	d
+NAT_PORT	process.h	147;"	d
+NAT_SCORES	config.h	137;"	d
+NAT_TO_UNK	process.h	145;"	d
+NAT_TS	process.h	146;"	d
+NAT_TTL	process.h	148;"	d
+NAT_UNK_DIFF	process.h	144;"	d
+NEAR_TTL_LIMIT	config.h	133;"	d
+NOP	tools/p0f-sendsyn.c	92;"	d	file:
+NOP	tools/p0f-sendsyn6.c	106;"	d	file:
+OBSERVF	p0f.h	26;"	d
+O_LARGEFILE	p0f.c	64;"	d	file:
+O_NOFOLLOW	p0f.c	60;"	d	file:
+P0F_ADDR_IPV4	api.h	23;"	d
+P0F_ADDR_IPV6	api.h	24;"	d
+P0F_MATCH_FUZZY	api.h	28;"	d
+P0F_MATCH_GENERIC	api.h	29;"	d
+P0F_QUERY_MAGIC	api.h	16;"	d
+P0F_RESP_MAGIC	api.h	17;"	d
+P0F_STATUS_BADQUERY	api.h	19;"	d
+P0F_STATUS_NOMATCH	api.h	21;"	d
+P0F_STATUS_OK	api.h	20;"	d
+P0F_STR_MAX	api.h	26;"	d
+PFATAL	debug.h	45;"	d
+PF_INET6	p0f.c	56;"	d	file:
+PROTO_TCP	tcp.h	35;"	d
+QUIRK_DF	process.h	61;"	d
+QUIRK_ECN	process.h	60;"	d
+QUIRK_FLOW	process.h	65;"	d
+QUIRK_NZ_ACK	process.h	70;"	d
+QUIRK_NZ_ID	process.h	62;"	d
+QUIRK_NZ_MBZ	process.h	64;"	d
+QUIRK_NZ_URG	process.h	72;"	d
+QUIRK_OPT_BAD	process.h	82;"	d
+QUIRK_OPT_EOL_NZ	process.h	80;"	d
+QUIRK_OPT_EXWS	process.h	81;"	d
+QUIRK_OPT_NZ_TS2	process.h	79;"	d
+QUIRK_OPT_ZERO_TS1	process.h	78;"	d
+QUIRK_PUSH	process.h	74;"	d
+QUIRK_URG	process.h	73;"	d
+QUIRK_ZERO_ACK	process.h	71;"	d
+QUIRK_ZERO_ID	process.h	63;"	d
+QUIRK_ZERO_SEQ	process.h	69;"	d
+RD16	types.h	35;"	d
+RD16	types.h	40;"	d
+RD16p	types.h	37;"	d
+RD16p	types.h	42;"	d
+RD32	types.h	36;"	d
+RD32	types.h	41;"	d
+RD32p	types.h	38;"	d
+RD32p	types.h	43;"	d
+REAF	process.c	1455;"	d	file:
+REAF	process.c	1474;"	d	file:
+RETF	fp_http.c	510;"	d	file:
+RETF	fp_http.c	650;"	d	file:
+RETF	fp_tcp.c	771;"	d	file:
+RETF	fp_tcp.c	898;"	d	file:
+RET_IF_DIV	fp_tcp.c	101;"	d	file:
+RET_IF_DIV	fp_tcp.c	58;"	d	file:
+ROL32	hash.h	17;"	d
+SAYF	debug.h	24;"	d
+SIG_BUCKETS	config.h	141;"	d
+SLOF	fp_http.c	51;"	d	file:
+SMALL_TTL_CHG	config.h	123;"	d
+SNAPLEN	config.h	82;"	d
+SOK	tools/p0f-sendsyn.c	95;"	d	file:
+SOK	tools/p0f-sendsyn6.c	109;"	d	file:
+SPECIAL_MSS	config.h	162;"	d
+SPECIAL_WIN	config.h	163;"	d
+SYS_CLASS_FLAG	readfp.h	31;"	d
+SYS_NF	readfp.h	32;"	d
+TARGETS	tools/Makefile	/^TARGETS = p0f-client p0f-sendsyn p0f-sendsyn6$/;"	m
+TCPOPT_EOL	tcp.h	125;"	d
+TCPOPT_MAXSEG	tcp.h	127;"	d
+TCPOPT_NOP	tcp.h	126;"	d
+TCPOPT_SACK	tcp.h	130;"	d
+TCPOPT_SACKOK	tcp.h	129;"	d
+TCPOPT_TSTAMP	tcp.h	131;"	d
+TCPOPT_WSCALE	tcp.h	128;"	d
+TCP_ACK	tcp.h	114;"	d
+TCP_CWR	tcp.h	120;"	d
+TCP_ECE	tcp.h	119;"	d
+TCP_FIN	tcp.h	110;"	d
+TCP_NS_RES	tcp.h	121;"	d
+TCP_PUSH	tcp.h	113;"	d
+TCP_RST	tcp.h	112;"	d
+TCP_SYN	tcp.h	111;"	d
+TCP_URG	tcp.h	115;"	d
+TRK	p0f.c	/^struct TRK_obj* TRK[ALLOC_BUCKETS];$/;"	v	typeref:struct:TRK_obj
+TRKH	alloc-inl.h	292;"	d
+TRK_alloc_buf	alloc-inl.h	/^static inline void TRK_alloc_buf(void* ptr, const char* file, const char* func,$/;"	f
+TRK_ck_alloc	alloc-inl.h	/^static inline void* TRK_ck_alloc(u32 size, const char* file, const char* func,$/;"	f
+TRK_ck_free	alloc-inl.h	/^static inline void TRK_ck_free(void* ptr, const char* file,$/;"	f
+TRK_ck_memdup	alloc-inl.h	/^static inline void* TRK_ck_memdup(void* mem, u32 size, const char* file,$/;"	f
+TRK_ck_memdup_str	alloc-inl.h	/^static inline void* TRK_ck_memdup_str(void* mem, u32 size, const char* file,$/;"	f
+TRK_ck_realloc	alloc-inl.h	/^static inline void* TRK_ck_realloc(void* orig, u32 size, const char* file,$/;"	f
+TRK_ck_realloc_kb	alloc-inl.h	/^static inline void* TRK_ck_realloc_kb(void* orig, u32 size, const char* file,$/;"	f
+TRK_ck_strdup	alloc-inl.h	/^static inline void* TRK_ck_strdup(u8* str, const char* file, const char* func,$/;"	f
+TRK_cnt	p0f.c	/^u32 TRK_cnt[ALLOC_BUCKETS];$/;"	v
+TRK_free_buf	alloc-inl.h	/^static inline void TRK_free_buf(void* ptr, const char* file, const char* func,$/;"	f
+TRK_obj	alloc-inl.h	/^struct TRK_obj {$/;"	s
+TRK_report	alloc-inl.h	/^static inline void TRK_report(void) {$/;"	f
+TS	tools/p0f-sendsyn.c	96;"	d	file:
+TS	tools/p0f-sendsyn6.c	110;"	d	file:
+TSTAMP_GRACE	config.h	110;"	d
+W	tools/p0f-sendsyn.c	88;"	d	file:
+W	tools/p0f-sendsyn6.c	102;"	d	file:
+WARN	debug.h	26;"	d
+WIN_TYPE_ANY	fp_tcp.h	52;"	d
+WIN_TYPE_MOD	fp_tcp.h	53;"	d
+WIN_TYPE_MSS	fp_tcp.h	54;"	d
+WIN_TYPE_MTU	fp_tcp.h	55;"	d
+WIN_TYPE_NORMAL	fp_tcp.h	51;"	d
+WS	tools/p0f-sendsyn.c	94;"	d	file:
+WS	tools/p0f-sendsyn6.c	108;"	d	file:
+_FROM_API	api.c	11;"	d	file:
+_FROM_FP_HTTP	fp_http.c	11;"	d	file:
+_FROM_P0F	p0f.c	12;"	d	file:
+_GNU_SOURCE	fp_http.c	12;"	d	file:
+_GNU_SOURCE	p0f.c	11;"	d	file:
+_GNU_SOURCE	readfp.c	13;"	d	file:
+_HAVE_ALLOC_INL_H	alloc-inl.h	12;"	d
+_HAVE_API_H	api.h	12;"	d
+_HAVE_CONFIG_H	config.h	12;"	d
+_HAVE_DEBUG_H	debug.h	12;"	d
+_HAVE_FP_HTTP_H	fp_http.h	12;"	d
+_HAVE_FP_MTU_H	fp_mtu.h	12;"	d
+_HAVE_FP_TCP_H	fp_tcp.h	12;"	d
+_HAVE_HASH_H	hash.h	13;"	d
+_HAVE_LANGUAGES_H	languages.h	12;"	d
+_HAVE_P0F_H	p0f.h	12;"	d
+_HAVE_PROCESS_H	process.h	12;"	d
+_HAVE_READFP_H	readfp.h	12;"	d
+_HAVE_TCP_H	tcp.h	15;"	d
+_HAVE_TYPES_H	types.h	12;"	d
+abort_handler	p0f.c	/^static void abort_handler(int sig) {$/;"	f	file:
+ack	tcp.h	/^  u32 ack;               \/* Acknowledgment number                    *\/$/;"	m	struct:tcp_hdr
+acked	process.h	/^  u8  acked;                            \/* SYN+ACK received?                  *\/$/;"	m	struct:packet_flow
+add_nat_score	process.c	/^void add_nat_score(u8 to_srv, struct packet_flow* f, u16 reason, u8 score) {$/;"	f
+add_observation_field	p0f.c	/^void add_observation_field(char* key, u8* value) {$/;"	f
+addr	api.h	/^  u8  addr[16];                         \/* IP address (big endian left align) *\/$/;"	m	struct:p0f_api_query
+addr	process.h	/^  u8 addr[16];                          \/* Host address data                  *\/$/;"	m	struct:host_data
+addr_to_str	process.c	/^u8* addr_to_str(u8* data, u8 ip_ver) {$/;"	f
+addr_type	api.h	/^  u8  addr_type;                        \/* P0F_ADDR_*                         *\/$/;"	m	struct:p0f_api_query
+alloc_printf	alloc-inl.h	476;"	d
+api_cl	p0f.c	/^static struct api_client *api_cl;       \/* Array with API client state        *\/$/;"	v	typeref:struct:api_client	file:
+api_client	p0f.h	/^struct api_client {$/;"	s
+api_fd	p0f.c	/^           api_fd = -1;                 \/* API socket descriptor              *\/$/;"	v	file:
+api_max_conn	p0f.c	/^  api_max_conn    = API_MAX_CONN;       \/* Maximum number of API connections  *\/$/;"	v	file:
+api_sock	p0f.c	/^          *api_sock,                    \/* API socket file name               *\/$/;"	v	file:
+bad_packets	process.c	/^static u8 bad_packets;                  \/* Seen non-IP packets?               *\/$/;"	v	file:
+bad_sw	api.h	/^  u8  bad_sw;                           \/* Host is lying about U-A \/ Server   *\/$/;"	m	struct:p0f_api_response
+bad_sw	process.h	/^  u8  bad_sw;                           \/* Used dishonest U-A or Server?      *\/$/;"	m	struct:host_data
+bad_ttl	fp_tcp.h	/^  u8  bad_ttl;                          \/* TTL is generated randomly          *\/$/;"	m	struct:tcp_sig_record
+bloom4_64	fp_http.c	/^static inline u64 bloom4_64(u32 val) {$/;"	f	file:
+bucket	process.h	/^  u32 bucket;                           \/* Bucket this flow belongs to        *\/$/;"	m	struct:packet_flow
+check_ts_tcp	fp_tcp.c	/^void check_ts_tcp(u8 to_srv, struct packet_data* pk, struct packet_flow* f) {$/;"	f
+ck_alloc	alloc-inl.h	267;"	d
+ck_alloc	alloc-inl.h	453;"	d
+ck_free	alloc-inl.h	273;"	d
+ck_free	alloc-inl.h	471;"	d
+ck_memdup	alloc-inl.h	271;"	d
+ck_memdup	alloc-inl.h	465;"	d
+ck_memdup_str	alloc-inl.h	272;"	d
+ck_memdup_str	alloc-inl.h	468;"	d
+ck_realloc	alloc-inl.h	268;"	d
+ck_realloc	alloc-inl.h	456;"	d
+ck_realloc_kb	alloc-inl.h	269;"	d
+ck_realloc_kb	alloc-inl.h	459;"	d
+ck_strdup	alloc-inl.h	270;"	d
+ck_strdup	alloc-inl.h	462;"	d
+cksum	tcp.h	/^  u16 cksum;             \/* Header and payload checksum              *\/$/;"	m	struct:tcp_hdr
+cksum	tcp.h	/^  u16 cksum;             \/* Header checksum                          *\/$/;"	m	struct:ipv4_hdr
+class_cnt	readfp.c	/^static u32 class_cnt,                   \/* Sizes for maps                     *\/$/;"	v	file:
+class_id	fp_http.h	/^  s32 class_id;                         \/* OS class ID (-1 = user)            *\/$/;"	m	struct:http_sig_record
+class_id	fp_tcp.h	/^  s32 class_id;                         \/* OS class ID (-1 = user)            *\/$/;"	m	struct:tcp_sig_record
+cli_port	process.h	/^  u16 cli_port;                         \/* Client port                        *\/$/;"	m	struct:packet_flow
+cli_scores	process.h	/^  u8  cli_scores[NAT_SCORES];           \/* Scoreboard for client NAT          *\/$/;"	m	struct:host_data
+cli_tps	process.h	/^  s16 cli_tps;$/;"	m	struct:packet_flow
+client	process.h	/^  struct host_data* client;             \/* Requesting client                  *\/$/;"	m	struct:packet_flow	typeref:struct:packet_flow::host_data
+close_spare_fds	p0f.c	/^static void close_spare_fds(void) {$/;"	f	file:
+config_parse_classes	readfp.c	/^static void config_parse_classes(u8* val) {$/;"	f	file:
+config_parse_label	readfp.c	/^static void config_parse_label(u8* val) {$/;"	f	file:
+config_parse_line	readfp.c	/^static void config_parse_line(u8* line) {$/;"	f	file:
+config_parse_sys	readfp.c	/^static void config_parse_sys(u8* val) {$/;"	f	file:
+conn_max_age	p0f.c	/^  conn_max_age    = CONN_MAX_AGE,       \/* Maximum age of a connection entry  *\/$/;"	v
+create_flow_from_syn	process.c	/^static struct packet_flow* create_flow_from_syn(struct packet_data* pk) {$/;"	f	file:
+create_host	process.c	/^static struct host_data* create_host(u8* addr, u8 ip_ver) {$/;"	f	file:
+created	process.h	/^  u32 created;                          \/* Flow creation date (unix time)     *\/$/;"	m	struct:packet_flow
+cur_sys	readfp.c	/^static u32* cur_sys;                    \/* Current 'sys' values               *\/$/;"	v	file:
+cur_sys_cnt	readfp.c	/^static u32  cur_sys_cnt;                \/* Number of 'sys' entries            *\/$/;"	v	file:
+cur_time	process.c	/^static struct timeval* cur_time;        \/* Current time, courtesy of pcap     *\/$/;"	v	typeref:struct:timeval	file:
+daemon_mode	p0f.c	/^u8 daemon_mode;                         \/* Running in daemon mode?            *\/$/;"	v
+date	fp_http.h	/^  u32 date;                             \/* Parsed 'Date'                      *\/$/;"	m	struct:http_sig
+destroy_all_hosts	process.c	/^void destroy_all_hosts(void) {$/;"	f
+destroy_flow	process.c	/^static void destroy_flow(struct packet_flow* f) {$/;"	f	file:
+destroy_host	process.c	/^static void destroy_host(struct host_data* h) {$/;"	f	file:
+detect_win_multi	fp_tcp.c	/^static s16 detect_win_multi(struct tcp_sig* ts, u8* use_mtu, u16 syn_mss) {$/;"	f	file:
+dishonest	fp_http.h	/^  u8  dishonest;                        \/* "sw" looks forged?                 *\/$/;"	m	struct:http_sig
+dist	fp_tcp.h	/^  u8  dist;                             \/* Distance                           *\/$/;"	m	struct:tcp_sig
+distance	api.h	/^  s16 distance;                         \/* System distance                    *\/$/;"	m	struct:p0f_api_response
+distance	process.h	/^  u8  distance;                         \/* Last measured distance             *\/$/;"	m	struct:host_data
+doff_rsvd	tcp.h	/^  u8  doff_rsvd;         \/* Data off dwords (4), rsvd (3), ECN (1)   *\/$/;"	m	struct:tcp_hdr
+dport	process.h	/^  u16 dport;                            \/* Destination port                   *\/$/;"	m	struct:packet_data
+dport	tcp.h	/^  u16 dport;             \/* Destination port                         *\/$/;"	m	struct:tcp_hdr
+drop_privs	p0f.c	/^static void drop_privs(void) {$/;"	f	file:
+dst	process.h	/^  u8  dst[16];                          \/* Destination address (left-aligned  *\/$/;"	m	struct:packet_data
+dst	tcp.h	/^  u8  dst[16];           \/* Destination IP                           *\/$/;"	m	struct:ipv6_hdr
+dst	tcp.h	/^  u8  dst[4];            \/* Destination IP                           *\/$/;"	m	struct:ipv4_hdr
+dump_flags	fp_http.c	/^static u8* dump_flags(struct http_sig* hsig, struct http_sig_record* m) {$/;"	f	file:
+dump_flags	fp_tcp.c	/^static u8* dump_flags(struct packet_data* pk, struct tcp_sig* ts) {$/;"	f	file:
+dump_sig	fp_http.c	/^static u8* dump_sig(u8 to_srv, struct http_sig* hsig) {$/;"	f	file:
+dump_sig	fp_tcp.c	/^static u8* dump_sig(struct packet_data* pk, struct tcp_sig* ts, u16 syn_mss) {$/;"	f	file:
+expire_cache	process.c	/^static void expire_cache(void) {$/;"	f	file:
+fd	p0f.h	/^  s32 fd;                               \/* -1 if slot free                    *\/$/;"	m	struct:api_client
+file	alloc-inl.h	/^  char *file, *func;$/;"	m	struct:TRK_obj
+find_interface	p0f.c	/^static u8* find_interface(int num) {$/;"	f	file:
+find_offset	process.c	/^static void find_offset(const u8* data, s32 total_len) {$/;"	f	file:
+fingerprint_http	fp_http.c	/^static void fingerprint_http(u8 to_srv, struct packet_flow* f) {$/;"	f	file:
+fingerprint_mtu	fp_mtu.c	/^void fingerprint_mtu(u8 to_srv, struct packet_data* pk, struct packet_flow* f) {$/;"	f
+fingerprint_tcp	fp_tcp.c	/^struct tcp_sig* fingerprint_tcp(u8 to_srv, struct packet_data* pk,$/;"	f
+first_seen	api.h	/^  u32 first_seen;                       \/* First seen (unix time)             *\/$/;"	m	struct:p0f_api_response
+first_seen	process.h	/^  u32 first_seen;                       \/* Record created (unix time)         *\/$/;"	m	struct:host_data
+flags	tcp.h	/^  u8  flags;             \/* Flags, including ECN                     *\/$/;"	m	struct:tcp_hdr
+flags_off	tcp.h	/^  u16 flags_off;         \/* Flags (3), fragment offset (13)          *\/$/;"	m	struct:ipv4_hdr
+flavor	fp_http.h	/^  u8* flavor;                           \/* Human-readable flavor string       *\/$/;"	m	struct:http_sig_record
+flavor	fp_tcp.h	/^  u8* flavor;                           \/* Human-readable flavor string       *\/$/;"	m	struct:tcp_sig_record
+flow_b	process.c	/^static struct packet_flow  *flow_b[FLOW_BUCKETS];$/;"	v	typeref:struct:packet_flow	file:
+flow_by_age	process.c	/^static struct packet_flow *flow_by_age, \/* All flows, by creation time        *\/$/;"	v	typeref:struct:packet_flow	file:
+flow_cnt	process.c	/^static u32 host_cnt, flow_cnt;          \/* Counters for bookkeeping purposes  *\/$/;"	v	file:
+flow_dispatch	process.c	/^static void flow_dispatch(struct packet_data* pk) {$/;"	f	file:
+fork_off	p0f.c	/^static void fork_off(void) {$/;"	f	file:
+fp_file	p0f.c	/^          *fp_file,                     \/* Location of p0f.fp                 *\/$/;"	v	file:
+fp_os_classes	readfp.c	/^u8 **fp_os_classes,                     \/* Map of OS classes                  *\/$/;"	v
+fp_os_names	readfp.c	/^   **fp_os_names;                       \/* Map of OS names                    *\/$/;"	v
+free_sig_hdrs	fp_http.c	/^void free_sig_hdrs(struct http_sig* h) {$/;"	f
+func	alloc-inl.h	/^  char *file, *func;$/;"	m	struct:TRK_obj
+fuzzy	fp_tcp.h	/^  u8  fuzzy;                            \/* Approximate match?                 *\/$/;"	m	struct:tcp_sig
+generic	fp_http.h	/^  u8 generic;                           \/* Generic signature?                 *\/$/;"	m	struct:http_sig_record
+generic	fp_tcp.h	/^  u8  generic;                          \/* Generic entry?                     *\/$/;"	m	struct:tcp_sig_record
+generic	readfp.c	/^          generic;                      \/* Generic signature?                 *\/$/;"	v	file:
+get_flow_bucket	process.c	/^static u32 get_flow_bucket(struct packet_data* pk) {$/;"	f	file:
+get_hash_seed	p0f.c	/^static void get_hash_seed(void) {$/;"	f	file:
+get_host_bucket	process.c	/^static u32 get_host_bucket(u8* addr, u8 ip_ver) {$/;"	f	file:
+get_unix_time	process.c	/^u32 get_unix_time(void) {$/;"	f
+get_unix_time_ms	process.c	/^u64 get_unix_time_ms(void) {$/;"	f
+guess_dist	fp_tcp.c	/^static u8 guess_dist(u8 ttl) {$/;"	f	file:
+handle_query	api.c	/^void handle_query(struct p0f_api_query* q, struct p0f_api_response* r) {$/;"	f
+hash32	hash.h	/^static inline u32 hash32(const void* key, u32 len, u32 seed) {$/;"	f
+hash_seed	p0f.c	/^u32 hash_seed;                          \/* Hash seed                          *\/$/;"	v
+hbh_cnt	fp_http.c	/^static u32  hbh_cnt[SIG_BUCKETS];      \/* Number of headers in bucket        *\/$/;"	v	file:
+hdr	fp_http.h	/^  struct http_hdr hdr[HTTP_MAX_HDRS];   \/* Mandatory \/ discovered headers     *\/$/;"	m	struct:http_sig	typeref:struct:http_sig::http_hdr
+hdr_bloom4	fp_http.h	/^  u64 hdr_bloom4;                       \/* Bloom filter for headers           *\/$/;"	m	struct:http_sig
+hdr_by_hash	fp_http.c	/^static u32* hdr_by_hash[SIG_BUCKETS];  \/* Hashed header names                *\/$/;"	v	file:
+hdr_cnt	fp_http.c	/^static u32  hdr_cnt;                   \/* Number of headers registered       *\/$/;"	v	file:
+hdr_cnt	fp_http.h	/^  u32 hdr_cnt;$/;"	m	struct:http_sig
+hdr_names	fp_http.c	/^static u8** hdr_names;                 \/* List of header names by ID         *\/$/;"	v	file:
+host_b	process.c	/^static struct host_data    *host_b[HOST_BUCKETS];$/;"	v	typeref:struct:host_data	file:
+host_by_age	process.c	/^static struct host_data *host_by_age,   \/* All host entries, by last mod      *\/$/;"	v	typeref:struct:host_data	file:
+host_cnt	process.c	/^static u32 host_cnt, flow_cnt;          \/* Counters for bookkeeping purposes  *\/$/;"	v	file:
+host_data	process.h	/^struct host_data {$/;"	s
+host_idle_limit	p0f.c	/^  host_idle_limit = HOST_IDLE_LIMIT;    \/* Host cache idle timeout            *\/$/;"	v
+http_find_match	fp_http.c	/^static void http_find_match(u8 to_srv, struct http_sig* ts, u8 dupe_det) {$/;"	f	file:
+http_flavor	api.h	/^  u8  http_flavor[P0F_STR_MAX + 1];     \/* Flavor of detected HTTP app        *\/$/;"	m	struct:p0f_api_response
+http_flavor	process.h	/^  u8* http_flavor;                      \/* Client flavor                      *\/$/;"	m	struct:host_data
+http_gotresp1	process.h	/^  u8  http_gotresp1;                    \/* Got initial line of a response?    *\/$/;"	m	struct:packet_flow
+http_hdr	fp_http.h	/^struct http_hdr {$/;"	s
+http_id	fp_http.h	/^struct http_id {$/;"	s
+http_init	fp_http.c	/^void http_init(void) {$/;"	f
+http_name	api.h	/^  u8  http_name[P0F_STR_MAX + 1];       \/* Name of detected HTTP app          *\/$/;"	m	struct:p0f_api_response
+http_name_id	process.h	/^  s32 http_name_id;                     \/* Client name ID (-1 = not found)    *\/$/;"	m	struct:host_data
+http_parse_ua	fp_http.c	/^void http_parse_ua(u8* val, u32 line_no) {$/;"	f
+http_pos	process.h	/^  u32 http_pos;                         \/* Current parsing offset             *\/$/;"	m	struct:packet_flow
+http_register_sig	fp_http.c	/^void http_register_sig(u8 to_srv, u8 generic, s32 sig_class, u32 sig_name,$/;"	f
+http_req_done	process.h	/^  u8  http_req_done;                    \/* Done collecting req headers?       *\/$/;"	m	struct:packet_flow
+http_req_os	process.h	/^  struct http_sig* http_req_os;         \/* Last request, if class != -1       *\/$/;"	m	struct:host_data	typeref:struct:host_data::http_sig
+http_resp	process.h	/^  struct http_sig* http_resp;           \/* Last response                      *\/$/;"	m	struct:host_data	typeref:struct:host_data::http_sig
+http_resp_port	process.h	/^  u16 http_resp_port;                   \/* Port on which response seen        *\/$/;"	m	struct:host_data
+http_sig	fp_http.h	/^struct http_sig {$/;"	s
+http_sig_record	fp_http.h	/^struct http_sig_record {$/;"	s
+http_tmp	process.h	/^  struct http_sig http_tmp;             \/* Temporary signature                *\/$/;"	m	struct:packet_flow	typeref:struct:packet_flow::http_sig
+http_ver	fp_http.h	/^  s8  http_ver;                         \/* HTTP version (-1 = any)            *\/$/;"	m	struct:http_sig
+id	fp_http.h	/^  s32  id;                              \/* Lookup ID (-1 = none)              *\/$/;"	m	struct:http_hdr
+id	fp_http.h	/^  u32 id;$/;"	m	struct:http_id
+id	fp_http.h	/^  u32 id;$/;"	m	struct:ua_map_record
+id	tcp.h	/^  u16 id;                \/* IP ID                                    *\/$/;"	m	struct:ipv4_hdr
+in_data	p0f.h	/^  struct p0f_api_query in_data;         \/* Query recv buffer                  *\/$/;"	m	struct:api_client	typeref:struct:api_client::p0f_api_query
+in_http	process.h	/^  s8  in_http;                          \/* 0 = tbd, 1 = yes, -1 = no          *\/$/;"	m	struct:packet_flow
+in_off	p0f.h	/^  u32 in_off;                           \/* Query buffer offset                *\/$/;"	m	struct:api_client
+ip_opt_len	fp_tcp.h	/^  u8  ip_opt_len;                       \/* Length of IP options               *\/$/;"	m	struct:tcp_sig
+ip_opt_len	process.h	/^  u8  ip_opt_len;                       \/* Length of IP options               *\/$/;"	m	struct:packet_data
+ip_ver	fp_tcp.h	/^  s8  ip_ver;                           \/* -1 = any, IP_VER4, IP_VER6         *\/$/;"	m	struct:tcp_sig
+ip_ver	process.h	/^  u8  ip_ver;                           \/* IP_VER4, IP_VER6                   *\/$/;"	m	struct:packet_data
+ip_ver	process.h	/^  u8 ip_ver;                            \/* Address type                       *\/$/;"	m	struct:host_data
+ipv4_hdr	tcp.h	/^struct ipv4_hdr {$/;"	s
+ipv6_hdr	tcp.h	/^struct ipv6_hdr {$/;"	s
+label_id	fp_http.h	/^  u32 label_id;                         \/* Signature label ID                 *\/$/;"	m	struct:http_sig_record
+label_id	fp_tcp.h	/^  u32 label_id;                         \/* Signature label ID                 *\/$/;"	m	struct:tcp_sig_record
+label_id	readfp.c	/^           label_id,                    \/* Current label ID                   *\/$/;"	v	file:
+lang	fp_http.h	/^  u8* lang;                             \/* Accept-Language                    *\/$/;"	m	struct:http_sig
+language	api.h	/^  u8  language[P0F_STR_MAX + 1];        \/* Language                           *\/$/;"	m	struct:p0f_api_response
+language	process.h	/^  u8* language;                         \/* Detected language                  *\/$/;"	m	struct:host_data
+languages	languages.h	/^static char* languages[256][MAX_LANG * 2 + 1] = {$/;"	v
+last_chg	api.h	/^  u32 last_chg;                         \/* OS chg last detected (unix time)   *\/$/;"	m	struct:p0f_api_response
+last_chg	process.h	/^  u32 last_chg;                         \/* Last OS change detection time      *\/$/;"	m	struct:host_data
+last_class_id	process.h	/^  s32 last_class_id;                    \/* OS class ID (-1 = not found)       *\/$/;"	m	struct:host_data
+last_flavor	process.h	/^  u8* last_flavor;                      \/* Last OS flavor                     *\/$/;"	m	struct:host_data
+last_name_id	process.h	/^  s32 last_name_id;                     \/* OS name ID (-1 = not found)        *\/$/;"	m	struct:host_data
+last_nat	api.h	/^  u32 last_nat;                         \/* NAT \/ LB last detected (unix time) *\/$/;"	m	struct:p0f_api_response
+last_nat	process.h	/^  u32 last_nat;                         \/* Last NAT detection time            *\/$/;"	m	struct:host_data
+last_port	process.h	/^  u16 last_port;                        \/* Source port on last SYN            *\/$/;"	m	struct:host_data
+last_quality	process.h	/^  u8  last_quality;                     \/* Generic or fuzzy match?            *\/$/;"	m	struct:host_data
+last_seen	api.h	/^  u32 last_seen;                        \/* Last seen (unix time)              *\/$/;"	m	struct:p0f_api_response
+last_seen	process.h	/^  u32 last_seen;                        \/* Host last seen (unix time)         *\/$/;"	m	struct:host_data
+last_syn	process.h	/^  struct tcp_sig* last_syn;             \/* Sig of the most recent SYN         *\/$/;"	m	struct:host_data	typeref:struct:host_data::tcp_sig
+last_synack	process.h	/^  struct tcp_sig* last_synack;          \/* Sig of the most recent SYN+ACK     *\/$/;"	m	struct:host_data	typeref:struct:host_data::tcp_sig
+last_up_min	process.h	/^  s32 last_up_min;                      \/* Last computed uptime (-1 = none)   *\/$/;"	m	struct:host_data
+lf	p0f.c	/^static FILE* lf;                        \/* Log file stream                    *\/$/;"	v	file:
+line	alloc-inl.h	/^  u32  line;$/;"	m	struct:TRK_obj
+line_no	fp_http.h	/^  u32  line_no;                         \/* Line number in p0f.fp              *\/$/;"	m	struct:http_sig_record
+line_no	fp_tcp.h	/^  u32  line_no;                         \/* Line number in p0f.fp              *\/$/;"	m	struct:tcp_sig_record
+line_no	readfp.c	/^           line_no;                     \/* Current line number                *\/$/;"	v	file:
+link_off	process.c	/^static s8 link_off = -1;                \/* Link-specific IP header offset     *\/$/;"	v	file:
+link_type	api.h	/^  u8  link_type[P0F_STR_MAX + 1];       \/* Link type                          *\/$/;"	m	struct:p0f_api_response
+link_type	p0f.c	/^s32 link_type;                          \/* PCAP link type                     *\/$/;"	v
+link_type	process.h	/^  u8* link_type;                        \/* MTU-derived link type              *\/$/;"	m	struct:host_data
+list_interfaces	p0f.c	/^static void list_interfaces(void) {$/;"	f	file:
+live_event_loop	p0f.c	/^static void live_event_loop(void) {$/;"	f	file:
+log_file	p0f.c	/^          *log_file,                    \/* Binary log file name               *\/$/;"	v	file:
+lookup_flow	process.c	/^static struct packet_flow* lookup_flow(struct packet_data* pk, u8* to_srv) {$/;"	f	file:
+lookup_hdr	fp_http.c	/^static s32 lookup_hdr(u8* name, u32 len, u8 create) {$/;"	f	file:
+lookup_host	process.c	/^struct host_data* lookup_host(u8* addr, u8 ip_ver) {$/;"	f
+lookup_name_id	readfp.c	/^u32 lookup_name_id(u8* name, u8 len) {$/;"	f
+magic	api.h	/^  u32 magic;                            \/* Must be P0F_QUERY_MAGIC            *\/$/;"	m	struct:p0f_api_query
+magic	api.h	/^  u32 magic;                            \/* Must be P0F_RESP_MAGIC             *\/$/;"	m	struct:p0f_api_response
+main	p0f.c	/^int main(int argc, char** argv) {$/;"	f
+main	tools/p0f-client.c	/^int main(int argc, char** argv) {$/;"	f
+main	tools/p0f-sendsyn.c	/^int main(int argc, char** argv) {$/;"	f
+main	tools/p0f-sendsyn6.c	/^int main(int argc, char** argv) {$/;"	f
+matched	fp_http.h	/^  struct http_sig_record* matched;      \/* NULL = no match                    *\/$/;"	m	struct:http_sig	typeref:struct:http_sig::http_sig_record
+matched	fp_tcp.h	/^  struct tcp_sig_record* matched;       \/* NULL = no match                    *\/$/;"	m	struct:tcp_sig	typeref:struct:tcp_sig::tcp_sig_record
+max_conn	p0f.c	/^  max_conn        = MAX_CONN,           \/* Connection entry count limit       *\/$/;"	v
+max_hosts	p0f.c	/^  max_hosts       = MAX_HOSTS,          \/* Host cache entry count limit       *\/$/;"	v
+miss	fp_http.h	/^  u32 miss[HTTP_MAX_HDRS];              \/* Missing headers                    *\/$/;"	m	struct:http_sig
+miss_cnt	fp_http.h	/^  u32 miss_cnt;$/;"	m	struct:http_sig
+mod_to_srv	readfp.c	/^          mod_to_srv,                   \/* Traffic direction                  *\/$/;"	v	file:
+mod_type	readfp.c	/^          mod_type,                     \/* Current module (CF_MOD_*)          *\/$/;"	v	file:
+mss	fp_tcp.h	/^  s32 mss;                              \/* Maximum segment size (-1 = any)    *\/$/;"	m	struct:tcp_sig
+mss	process.h	/^  u16 mss;                              \/* Maximum segment size               *\/$/;"	m	struct:packet_data
+mtu	fp_mtu.h	/^  u16 mtu;$/;"	m	struct:mtu_sig_record
+mtu_register_sig	fp_mtu.c	/^void mtu_register_sig(u8* name, u8* val, u32 line_no) {$/;"	f
+mtu_sig_record	fp_mtu.h	/^struct mtu_sig_record {$/;"	s
+name	fp_http.h	/^  char* name;$/;"	m	struct:http_id
+name	fp_http.h	/^  u8*  name;                            \/* Text name (NULL = use lookup ID)   *\/$/;"	m	struct:http_hdr
+name	fp_http.h	/^  u8* name;$/;"	m	struct:ua_map_record
+name	fp_mtu.h	/^  u8* name;$/;"	m	struct:mtu_sig_record
+name_cnt	readfp.c	/^           name_cnt,$/;"	v	file:
+name_id	fp_http.h	/^  s32 name_id;                          \/* OS name ID                         *\/$/;"	m	struct:http_sig_record
+name_id	fp_tcp.h	/^  s32 name_id;                          \/* OS name ID                         *\/$/;"	m	struct:tcp_sig_record
+nat_reasons	process.h	/^  u16 nat_reasons;                      \/* NAT complaints                     *\/$/;"	m	struct:host_data
+newer	process.h	/^  struct host_data *older, *newer;$/;"	m	struct:host_data	typeref:struct:host_data::
+newer	process.h	/^  struct packet_flow *older, *newer;$/;"	m	struct:packet_flow	typeref:struct:packet_flow::
+newest_flow	process.c	/^                          *newest_flow; \/* Tail of the list                   *\/$/;"	v	typeref:struct:	file:
+newest_host	process.c	/^                        *newest_host;   \/* Tail of the list                   *\/$/;"	v	typeref:struct:	file:
+next	process.h	/^  struct host_data *prev, *next;        \/* Linked lists                       *\/$/;"	m	struct:host_data	typeref:struct:host_data::
+next	process.h	/^  struct packet_flow *prev, *next;      \/* Linked lists                       *\/$/;"	m	struct:packet_flow	typeref:struct:packet_flow::
+next_cli_seq	process.h	/^  u32 next_cli_seq;                     \/* Next seq on cli -> srv packet      *\/$/;"	m	struct:packet_flow
+next_srv_seq	process.h	/^  u32 next_srv_seq;                     \/* Next seq on srv -> cli packet      *\/$/;"	m	struct:packet_flow
+nuke_flows	process.c	/^static void nuke_flows(u8 silent) {$/;"	f	file:
+nuke_hosts	process.c	/^static void nuke_hosts(void) {$/;"	f	file:
+null_fd	p0f.c	/^static s32 null_fd = -1,                \/* File descriptor of \/dev\/null       *\/$/;"	v	file:
+obs_fields	p0f.c	/^static u8 obs_fields;                   \/* No of pending observation fields   *\/$/;"	v	file:
+offline_event_loop	p0f.c	/^static void offline_event_loop(void) {$/;"	f	file:
+older	process.h	/^  struct host_data *older, *newer;$/;"	m	struct:host_data	typeref:struct:host_data::host_data
+older	process.h	/^  struct packet_flow *older, *newer;$/;"	m	struct:packet_flow	typeref:struct:packet_flow::packet_flow
+open_api	p0f.c	/^static void open_api(void) {$/;"	f	file:
+open_log	p0f.c	/^static void open_log(void) {$/;"	f	file:
+opt_cnt	process.h	/^  u8  opt_cnt;                          \/* Count of TCP options               *\/$/;"	m	struct:packet_data
+opt_combos	tools/p0f-sendsyn.c	/^static u8 opt_combos[8][24] = {$/;"	v	file:
+opt_combos	tools/p0f-sendsyn6.c	/^static u8 opt_combos[8][24] = {$/;"	v	file:
+opt_eol_pad	fp_tcp.h	/^  u8  opt_eol_pad;                      \/* Amount of padding past EOL         *\/$/;"	m	struct:tcp_sig
+opt_eol_pad	process.h	/^  u8  opt_eol_pad;                      \/* Amount of padding past EOL         *\/$/;"	m	struct:packet_data
+opt_hash	fp_tcp.h	/^  u32 opt_hash;                         \/* Hash of opt_layout & opt_cnt       *\/$/;"	m	struct:tcp_sig
+opt_layout	process.h	/^  u8  opt_layout[MAX_TCP_OPT];          \/* Ordering of TCP options            *\/$/;"	m	struct:packet_data
+optional	fp_http.h	/^  u8   optional;                        \/* Optional header?                   *\/$/;"	m	struct:http_hdr
+orig_rule	p0f.c	/^          *orig_rule,                   \/* Original filter rule               *\/$/;"	v	file:
+os_flavor	api.h	/^  u8  os_flavor[P0F_STR_MAX + 1];       \/* Flavor of detected OS              *\/$/;"	m	struct:p0f_api_response
+os_match_q	api.h	/^  u8  os_match_q;                       \/* Match quality                      *\/$/;"	m	struct:p0f_api_response
+os_name	api.h	/^  u8  os_name[P0F_STR_MAX + 1];         \/* Name of detected OS                *\/$/;"	m	struct:p0f_api_response
+out_data	p0f.h	/^  struct p0f_api_response out_data;     \/* Response transmit buffer           *\/$/;"	m	struct:api_client	typeref:struct:api_client::p0f_api_response
+out_off	p0f.h	/^  u32 out_off;                          \/* Response buffer offset             *\/$/;"	m	struct:api_client
+p0f_api_query	api.h	/^struct p0f_api_query {$/;"	s
+p0f_api_response	api.h	/^struct p0f_api_response {$/;"	s
+packet_cnt	process.c	/^u64 packet_cnt;                         \/* Total number of packets processed  *\/$/;"	v
+packet_data	process.h	/^struct packet_data {$/;"	s
+packet_flow	process.h	/^struct packet_flow {$/;"	s
+packet_to_sig	fp_tcp.c	/^static void packet_to_sig(struct packet_data* pk, struct tcp_sig* ts) {$/;"	f	file:
+parse_addr	tools/p0f-sendsyn.c	/^static void parse_addr(char* str, u8* ret) { $/;"	f	file:
+parse_addr	tools/p0f-sendsyn6.c	/^static void parse_addr(char* str, u8* ret) { $/;"	f	file:
+parse_addr4	tools/p0f-client.c	/^static void parse_addr4(char* str, u8* ret) {$/;"	f	file:
+parse_addr6	tools/p0f-client.c	/^static void parse_addr6(char* str, u8* ret) {$/;"	f	file:
+parse_date	fp_http.c	/^static u32 parse_date(u8* str) {$/;"	f	file:
+parse_packet	process.c	/^void parse_packet(void* junk, const struct pcap_pkthdr* hdr, const u8* data) {$/;"	f
+parse_pairs	fp_http.c	/^static u8 parse_pairs(u8 to_srv, struct packet_flow* f, u8 can_get_more) {$/;"	f	file:
+pay_class	fp_tcp.h	/^  s8  pay_class;                        \/* -1 = any, 0 = zero, 1 = non-zero   *\/$/;"	m	struct:tcp_sig
+pay_len	process.h	/^  u16 pay_len;                          \/* Length of TCP payload              *\/$/;"	m	struct:packet_data
+pay_len	tcp.h	/^  u16 pay_len;           \/* Total payload length, in bytes           *\/$/;"	m	struct:ipv6_hdr
+payload	process.h	/^  u8* payload;                          \/* TCP payload                        *\/$/;"	m	struct:packet_data
+prepare_bpf	p0f.c	/^static void prepare_bpf(void) {$/;"	f	file:
+prepare_pcap	p0f.c	/^static void prepare_pcap(void) {$/;"	f	file:
+prev	process.h	/^  struct host_data *prev, *next;        \/* Linked lists                       *\/$/;"	m	struct:host_data	typeref:struct:host_data::host_data
+prev	process.h	/^  struct packet_flow *prev, *next;      \/* Linked lists                       *\/$/;"	m	struct:packet_flow	typeref:struct:packet_flow::packet_flow
+process_http	fp_http.c	/^u8 process_http(u8 to_srv, struct packet_flow* f) {$/;"	f
+proto	tcp.h	/^  u8  proto;             \/* Next protocol                            *\/$/;"	m	struct:ipv4_hdr
+proto	tcp.h	/^  u8  proto;             \/* Next protocol                            *\/$/;"	m	struct:ipv6_hdr
+pt	p0f.c	/^static pcap_t *pt;                      \/* PCAP capture thingy                *\/$/;"	v	file:
+ptr	alloc-inl.h	/^  void *ptr;$/;"	m	struct:TRK_obj
+quirks	fp_tcp.h	/^  u32 quirks;                           \/* Quirks                             *\/$/;"	m	struct:tcp_sig
+quirks	process.h	/^  u32 quirks;                           \/* QUIRK_*                            *\/$/;"	m	struct:packet_data
+read_config	readfp.c	/^void read_config(u8* fname) {$/;"	f
+read_file	p0f.c	/^          *read_file;                   \/* File to read pcap data from        *\/$/;"	v	file:
+recv_date	fp_http.h	/^  u32 recv_date;                        \/* Actual receipt date                *\/$/;"	m	struct:http_sig
+recv_ms	fp_tcp.h	/^  u64 recv_ms;                          \/* Packet recv unix time (ms)         *\/$/;"	m	struct:tcp_sig
+regen_pfds	p0f.c	/^static u32 regen_pfds(struct pollfd* pfds, struct api_client** ctable) {$/;"	f	file:
+req_common	config.h	/^static struct http_id req_common[] = {$/;"	v	typeref:struct:http_id
+req_len	process.h	/^  u32 req_len;                          \/* Captured data length               *\/$/;"	m	struct:packet_flow
+req_optional	config.h	/^static struct http_id req_optional[] = {$/;"	v	typeref:struct:http_id
+req_skipval	config.h	/^static struct http_id req_skipval[] = {$/;"	v	typeref:struct:http_id
+request	process.h	/^  u8* request;                          \/* Client-originating data            *\/$/;"	m	struct:packet_flow
+resp_common	config.h	/^static struct http_id resp_common[] = {$/;"	v	typeref:struct:http_id
+resp_len	process.h	/^  u32 resp_len;                         \/* Captured data length               *\/$/;"	m	struct:packet_flow
+resp_optional	config.h	/^static struct http_id resp_optional[] = {$/;"	v	typeref:struct:http_id
+resp_skipval	config.h	/^static struct http_id resp_skipval[] = {$/;"	v	typeref:struct:http_id
+response	process.h	/^  u8* response;                         \/* Server-originating data            *\/$/;"	m	struct:packet_flow
+s16	types.h	/^typedef int16_t  s16;$/;"	t
+s32	types.h	/^typedef int32_t  s32;$/;"	t
+s64	types.h	/^typedef int64_t  s64;$/;"	t
+s8	types.h	/^typedef int8_t   s8;$/;"	t
+score_nat	fp_http.c	/^static void score_nat(u8 to_srv, struct packet_flow* f) {$/;"	f	file:
+score_nat	fp_tcp.c	/^static void score_nat(u8 to_srv, struct tcp_sig* sig, struct packet_flow* f) {$/;"	f	file:
+sendsyn	process.h	/^  u8  sendsyn;                          \/* Created by p0f-sendsyn?            *\/$/;"	m	struct:packet_flow
+seq	process.h	/^  u32 seq;                              \/* seq value seen                     *\/$/;"	m	struct:packet_data
+seq	tcp.h	/^  u32 seq;               \/* Sequence number                          *\/$/;"	m	struct:tcp_hdr
+server	process.h	/^  struct host_data* server;             \/* Target server                      *\/$/;"	m	struct:packet_flow	typeref:struct:packet_flow::host_data
+set_promisc	p0f.c	/^static u8 set_promisc;                  \/* Use promiscuous mode?              *\/$/;"	v	file:
+sig	fp_http.h	/^  struct http_sig* sig;                 \/* Actual signature data              *\/$/;"	m	struct:http_sig_record	typeref:struct:http_sig_record::http_sig
+sig	fp_tcp.h	/^  struct tcp_sig* sig;                  \/* Actual signature data              *\/$/;"	m	struct:tcp_sig_record	typeref:struct:tcp_sig_record::tcp_sig
+sig_class	readfp.c	/^static s32 sig_class;                   \/* Signature class ID (-1 = userland) *\/$/;"	v	file:
+sig_cnt	fp_http.c	/^static u32 sig_cnt[2];$/;"	v	file:
+sig_cnt	fp_mtu.c	/^static u32 sig_cnt[SIG_BUCKETS];$/;"	v	file:
+sig_cnt	fp_tcp.c	/^static u32 sig_cnt[2][SIG_BUCKETS];$/;"	v	file:
+sig_cnt	readfp.c	/^static u32 sig_cnt;                     \/* Total number of p0f.fp sigs        *\/$/;"	v	file:
+sig_flavor	readfp.c	/^static u8* sig_flavor;                  \/* Signature flavor                   *\/$/;"	v	file:
+sig_name	readfp.c	/^static u32 sig_name;                    \/* Signature name                     *\/$/;"	v	file:
+sigs	fp_http.c	/^static struct http_sig_record* sigs[2];$/;"	v	typeref:struct:http_sig_record	file:
+sigs	fp_mtu.c	/^static struct mtu_sig_record* sigs[SIG_BUCKETS];$/;"	v	typeref:struct:mtu_sig_record	file:
+sigs	fp_tcp.c	/^static struct tcp_sig_record* sigs[2][SIG_BUCKETS];$/;"	v	typeref:struct:tcp_sig_record	file:
+sport	process.h	/^  u16 sport;                            \/* Source port                        *\/$/;"	m	struct:packet_data
+sport	tcp.h	/^  u16 sport;             \/* Source port                              *\/$/;"	m	struct:tcp_hdr
+src	process.h	/^  u8  src[16];                          \/* Source address (left-aligned)      *\/$/;"	m	struct:packet_data
+src	tcp.h	/^  u8  src[16];           \/* Source IP                                *\/$/;"	m	struct:ipv6_hdr
+src	tcp.h	/^  u8  src[4];            \/* Source IP                                *\/$/;"	m	struct:ipv4_hdr
+srv_port	process.h	/^  u16 srv_port;                         \/* Server port                        *\/$/;"	m	struct:packet_flow
+srv_scores	process.h	/^  u8  srv_scores[NAT_SCORES];           \/* Scoreboard for server NAT          *\/$/;"	m	struct:host_data
+srv_tps	process.h	/^  s16 srv_tps;                          \/* Computed TS divisor (-1 = bad)     *\/ $/;"	m	struct:packet_flow
+start_observation	p0f.c	/^void start_observation(char* keyword, u8 field_cnt, u8 to_srv,$/;"	f
+state	readfp.c	/^static u8 state = CF_NEED_SECT,         \/* Parser state (CF_NEED_*)           *\/$/;"	v	file:
+status	api.h	/^  u32 status;                           \/* P0F_STATUS_*                       *\/$/;"	m	struct:p0f_api_response
+stop_soon	p0f.c	/^static u8 stop_soon;                    \/* Ctrl-C or so pressed?              *\/$/;"	v	file:
+sw	fp_http.h	/^  u8* sw;                               \/* Software string (U-A or Server)    *\/$/;"	m	struct:http_sig
+switch_user	p0f.c	/^          *switch_user,                 \/* Target username                    *\/$/;"	v	file:
+syn_mss	process.h	/^  u16 syn_mss;                          \/* MSS on SYN packet                  *\/$/;"	m	struct:packet_flow
+sys	fp_http.h	/^  u32* sys;                             \/* OS class \/ name IDs for user apps  *\/$/;"	m	struct:http_sig_record
+sys	fp_tcp.h	/^  u32* sys;                             \/* OS class \/ name IDs for user apps  *\/$/;"	m	struct:tcp_sig_record
+sys_cnt	fp_http.h	/^  u32  sys_cnt;                         \/* Length of sys                      *\/$/;"	m	struct:http_sig_record
+sys_cnt	fp_tcp.h	/^  u32  sys_cnt;                         \/* Length of sys                      *\/$/;"	m	struct:tcp_sig_record
+tcp_cksum	tools/p0f-sendsyn.c	/^static void tcp_cksum(u8* src, u8* dst, struct tcp_hdr* t, u8 opt_len) {$/;"	f	file:
+tcp_cksum	tools/p0f-sendsyn6.c	/^static void tcp_cksum(u8* src, u8* dst, struct tcp_hdr* t, u8 opt_len) {$/;"	f	file:
+tcp_find_match	fp_tcp.c	/^static void tcp_find_match(u8 to_srv, struct tcp_sig* ts, u8 dupe_det,$/;"	f	file:
+tcp_hdr	tcp.h	/^struct tcp_hdr {$/;"	s
+tcp_register_sig	fp_tcp.c	/^void tcp_register_sig(u8 to_srv, u8 generic, s32 sig_class, u32 sig_name,$/;"	f
+tcp_sig	fp_tcp.h	/^struct tcp_sig {$/;"	s
+tcp_sig_record	fp_tcp.h	/^struct tcp_sig_record {$/;"	s
+tcp_type	process.h	/^  u8  tcp_type;                         \/* TCP_SYN, ACK, FIN, RST             *\/$/;"	m	struct:packet_data
+tos	process.h	/^  u8  tos;                              \/* IP ToS value                       *\/$/;"	m	struct:packet_data
+tos_ecn	tcp.h	/^  u8  tos_ecn;           \/* ToS field (6), ECN flags (2)             *\/$/;"	m	struct:ipv4_hdr
+tot_hdr	fp_tcp.h	/^  u16 tot_hdr;                          \/* Total header length                *\/$/;"	m	struct:tcp_sig
+tot_hdr	process.h	/^  u16 tot_hdr;                          \/* Total headers (for MTU calc)       *\/$/;"	m	struct:packet_data
+tot_len	tcp.h	/^  u16 tot_len;           \/* Total packet length, in bytes            *\/$/;"	m	struct:ipv4_hdr
+total_conn	api.h	/^  u32 total_conn;                       \/* Total connections seen             *\/$/;"	m	struct:p0f_api_response
+total_conn	process.h	/^  u32 total_conn;                       \/* Total number of connections ever   *\/$/;"	m	struct:host_data
+touch_host	process.c	/^static void touch_host(struct host_data* h) {$/;"	f	file:
+ts1	fp_tcp.h	/^  u32 ts1;                              \/* Own timestamp                      *\/$/;"	m	struct:tcp_sig
+ts1	process.h	/^  u32 ts1;                              \/* Own timestamp                      *\/$/;"	m	struct:packet_data
+ttl	fp_tcp.h	/^  u8  ttl;                              \/* Actual TTL                         *\/$/;"	m	struct:tcp_sig
+ttl	process.h	/^  u8  ttl;                              \/* Observed TTL                       *\/$/;"	m	struct:packet_data
+ttl	tcp.h	/^  u8  ttl;               \/* Time to live                             *\/$/;"	m	struct:ipv4_hdr
+ttl	tcp.h	/^  u8  ttl;               \/* Time to live                             *\/$/;"	m	struct:ipv6_hdr
+u16	types.h	/^typedef uint16_t u16;$/;"	t
+u32	types.h	/^typedef uint32_t u32;$/;"	t
+u64	types.h	/^typedef uint64_t u64;$/;"	t
+u8	types.h	/^typedef uint8_t  u8;$/;"	t
+ua_map	fp_http.c	/^static struct ua_map_record* ua_map;   \/* Mappings between U-A and OS        *\/$/;"	v	typeref:struct:ua_map_record	file:
+ua_map_cnt	fp_http.c	/^static u32 ua_map_cnt;$/;"	v	file:
+ua_map_record	fp_http.h	/^struct ua_map_record {$/;"	s
+up_mod_days	api.h	/^  u32 up_mod_days;                      \/* Uptime modulo (days)               *\/$/;"	m	struct:p0f_api_response
+up_mod_days	process.h	/^  u32 up_mod_days;                      \/* Uptime modulo (days)               *\/$/;"	m	struct:host_data
+uptime_min	api.h	/^  u32 uptime_min;                       \/* Last uptime (minutes)              *\/$/;"	m	struct:p0f_api_response
+urg	tcp.h	/^  u16 urg;               \/* "Urgent" pointer                         *\/$/;"	m	struct:tcp_hdr
+usage	p0f.c	/^static void usage(void) {$/;"	f	file:
+use_cnt	process.h	/^  u32 use_cnt;                          \/* Number of packet_flows attached    *\/$/;"	m	struct:host_data
+use_iface	p0f.c	/^static u8 *use_iface,                   \/* Interface to listen on             *\/$/;"	v	file:
+value	fp_http.h	/^  u8*  value;                           \/* Value, if any                      *\/$/;"	m	struct:http_hdr
+ver_hlen	tcp.h	/^  u8  ver_hlen;          \/* IP version (4), IP hdr len in dwords (4) *\/$/;"	m	struct:ipv4_hdr
+ver_tos	tcp.h	/^  u32 ver_tos;           \/* Version (4), ToS (6), ECN (2), flow (20) *\/$/;"	m	struct:ipv6_hdr
+verify_tool_class	process.c	/^void verify_tool_class(u8 to_srv, struct packet_flow* f, u32* sys, u32 sys_cnt) {$/;"	f
+via	fp_http.h	/^  u8* via;                              \/* Via or X-Forwarded-For             *\/$/;"	m	struct:http_sig
+win	fp_tcp.h	/^  u16 win;                              \/* Window size                        *\/$/;"	m	struct:tcp_sig
+win	process.h	/^  u16 win;                              \/* Window size                        *\/$/;"	m	struct:packet_data
+win	tcp.h	/^  u16 win;               \/* Window size                              *\/$/;"	m	struct:tcp_hdr
+win_type	fp_tcp.h	/^  u8  win_type;                         \/* WIN_TYPE_*                         *\/$/;"	m	struct:tcp_sig
+wscale	fp_tcp.h	/^  s16 wscale;                           \/* Window scale (-1 = any)            *\/$/;"	m	struct:tcp_sig
+wscale	process.h	/^  u8  wscale;                           \/* Window scaling                     *\/$/;"	m	struct:packet_data

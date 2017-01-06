@@ -1,0 +1,197 @@
+{
+   "packets" : [
+      {
+         "body" : {
+            "tags-term" : [
+               "smtp:statuscode:250"
+            ],
+            "pa2" : 14,
+            "ss" : 1,
+            "db2" : 470,
+            "aseip" : [
+               "---"
+            ],
+            "as2" : "AS1668 Transit Data Network",
+            "esub" : [
+               "zip test"
+            ],
+            "pa1" : 14,
+            "rireip" : [
+               ""
+            ],
+            "a2" : "64.236.64.225",
+            "eip" : [
+               "127.0.0.1"
+            ],
+            "g1" : "USA",
+            "fb2" : "3232302078787878",
+            "by1" : 2431,
+            "g2" : "USA",
+            "db1" : 1499,
+            "ehocnt" : 2,
+            "prot-term" : [
+               "smtp",
+               "tcp"
+            ],
+            "prot-term-cnt" : 2,
+            "fs" : [],
+            "esubcnt" : 1,
+            "no" : "test",
+            "ta" : [
+               "smtp:statuscode:250"
+            ],
+            "emd5cnt" : 1,
+            "efn" : [
+               "a.zip"
+            ],
+            "efncnt" : 1,
+            "by" : 3833,
+            "email" : {
+               "bodymagic-term" : [
+                  "application/zip"
+               ],
+               "bodymagic-term-cnt" : 1
+            },
+            "pr" : 6,
+            "pa" : 28,
+            "fpd" : 1387291817187,
+            "ehhcnt" : 10,
+            "eidcnt" : 1,
+            "tacnt" : 1,
+            "ectcnt" : 1,
+            "psl" : [
+               90,
+               90,
+               82,
+               153,
+               82,
+               110,
+               82,
+               251,
+               119,
+               113,
+               121,
+               124,
+               82,
+               128,
+               82,
+               1468,
+               82,
+               85,
+               82,
+               113,
+               82,
+               88,
+               82,
+               162,
+               82,
+               82,
+               82,
+               82
+            ],
+            "ps" : [
+               24,
+               114,
+               204,
+               286,
+               439,
+               521,
+               631,
+               713,
+               964,
+               1083,
+               1196,
+               1317,
+               1441,
+               1523,
+               1651,
+               1733,
+               3201,
+               3283,
+               3368,
+               3450,
+               3563,
+               3645,
+               3733,
+               3815,
+               3977,
+               4059,
+               4141,
+               4223
+            ],
+            "rir2" : "ARIN",
+            "edst" : [
+               "xxxxxxxxx@xxxxxxx.com"
+            ],
+            "mac2-term-cnt" : 2,
+            "eipcnt" : 1,
+            "eho" : [
+               "localhost",
+               "xxxxxxxxxxxxx.xxx.com"
+            ],
+            "mac2-term" : [
+               "00:00:0c:07:ac:01",
+               "00:0e:d6:0b:98:80"
+            ],
+            "geip" : [
+               "---"
+            ],
+            "sl" : 377,
+            "mac1-term" : [
+               "00:13:72:c4:f1:e1"
+            ],
+            "ehh" : [
+               "content-type",
+               "message-id",
+               "mime-version",
+               "from",
+               "to",
+               "user-agent",
+               "received",
+               "content-disposition",
+               "date",
+               "subject"
+            ],
+            "lp" : 1387291817,
+            "fp" : 1387291817,
+            "mac1-term-cnt" : 1,
+            "lpd" : 1387291817565,
+            "esrc" : [
+               "xxxxx@xxx.net"
+            ],
+            "edstcnt" : 1,
+            "eua" : [
+               "Mutt/1.5.20 (2009-12-10)"
+            ],
+            "by2" : 1402,
+            "emvcnt" : 1,
+            "emv" : [
+               "1.0"
+            ],
+            "db" : 1969,
+            "p1" : 46671,
+            "eid" : [
+               "20131217145016.GA29077@xxx.net"
+            ],
+            "esrccnt" : 1,
+            "a1" : "10.180.156.249",
+            "emd5" : [
+               "40be8f5100e9beabab293c9d7bacaff0"
+            ],
+            "ect" : [
+               "multipart/mixed; boundary=\"HcAYCG3uE/tztfnV\""
+            ],
+            "p2" : 25,
+            "fb1" : "45484c4f20787878",
+            "euacnt" : 1
+         },
+         "header" : {
+            "index" : {
+               "_type" : "session",
+               "_index" : "tests_sessions-131217"
+            }
+         }
+      }
+   ]
+}
+

@@ -1,0 +1,88 @@
+#!/bin/bash
+
+LINUX="Linux"
+WINDOWS="Windows"
+F2_6_x="2.6.x"
+F7_8="7 or 8"
+
+errmsg=""
+errcnt=0
+
+# file tcp_handshake.tcp
+echo -n ".."
+curl -XDELETE 127.0.0.1:9200/fingerprint &> /dev/null
+./insertfp /tmp/tcp_handshake.pcap &> /dev/null 
+#dont know why but without this sleep, the below curl will not generate correct answer
+sleep 1
+count=$(curl -s 127.0.0.1:9200/fingerprint/_count | python -c "import json,sys;obj=json.load(sys.stdin);print obj['count'];")
+if [ $count -ne 2 ]
+then
+    errmsg=$(printf "$LINENO>> $count instead of 2\n$errmsg")
+    errcnt=$(($errcnt + 1))
+fi
+
+os=$(curl -s -XGET 127.0.0.1:9200/fingerprint/_search?pretty -d '{"fields":["os", "flavor"], "query" : { "term" : {"host": "212.58.226.142"} } }' | python -c "import json,sys;obj=json.load(sys.stdin);print obj['hits']['hits'][0]['fields']['os'][0];")
+if [ $os != $LINUX  ]
+then
+    errmsg=$(printf "$LINENO>> $os instead of $LINUX\n$errmsg")
+    errcnt=$(($errcnt + 1))
+fi
+
+flavor=$(curl -s -XGET 127.0.0.1:9200/fingerprint/_search?pretty -d '{"fields":["os", "flavor"], "query" : { "term" : {"host": "212.58.226.142"} } }' | python -c "import json,sys;obj=json.load(sys.stdin);print obj['hits']['hits'][0]['fields']['flavor'][0];")
+if [ "$flavor" != "$F2_6_x"  ]
+then
+    errmsg=$(printf "$LINENO>> $flavor instead of $F2_6_x\n$errmsg")
+    errcnt=$(($errcnt + 1))
+fi
+
+os=$(curl -s -XGET 127.0.0.1:9200/fingerprint/_search?pretty -d '{"fields":["os", "flavor"], "query" : { "term" : {"host": "172.16.16.128"} } }' | python -c "import json,sys;obj=json.load(sys.stdin);print obj['hits']['hits'][0]['fields']['os'][0];")
+if [ "$os" != "$WINDOWS"  ]
+then
+    errmsg=$(printf "$LINENO>>  $os instead of $WINDOWS\n$errmsg")
+    errcnt=$(($errcnt + 1))
+fi
+
+flavor=$(curl -s -XGET 127.0.0.1:9200/fingerprint/_search?pretty -d '{"fields":["os", "flavor"], "query" : { "term" : {"host": "172.16.16.128"} } }' | python -c "import json,sys;obj=json.load(sys.stdin);print obj['hits']['hits'][0]['fields']['flavor'][0];")
+if [ "$flavor" != "$F7_8" ]
+then
+    errmsg=$(printf "$LINENO>> $flavor instead of $F7_8\n$errmsg")
+    errcnt=$(($errcnt + 1))
+fi
+
+# file tcp_ports.pcap
+echo -n ".."
+curl -XDELETE 127.0.0.1:9200/fingerprint &> /dev/null
+./insertfp /tmp/tcp_ports.pcap &> /dev/null 
+#dont know why but without this sleep, the below curl will not generate correct answer
+sleep 1
+count=$(curl -s 127.0.0.1:9200/fingerprint/_count | python -c "import json,sys;obj=json.load(sys.stdin);print obj['count'];")
+if [ $count -ne 3 ]
+then
+    errmsg=$(printf "$LINENO>> $count records found instead of 3\n$errmsg")
+    errcnt=$(($errcnt + 1))
+fi
+
+# file http_google.pcap
+echo -n ".."
+curl -XDELETE 127.0.0.1:9200/fingerprint &> /dev/null
+./insertfp /tmp/http_google.pcap &> /dev/null 
+#dont know why but without this sleep, the below curl will not generate correct answer
+sleep 1
+count=$(curl -s 127.0.0.1:9200/fingerprint/_count | python -c "import json,sys;obj=json.load(sys.stdin);print obj['count'];")
+if [ $count -ne 1 ]
+then
+    errmsg=$(printf "$LINENO>> $count records found instead of 1\n$errmsg")
+    errcnt=$(($errcnt + 1))
+fi
+
+echo ""
+if [ $errcnt -gt 0 ]
+then
+    echo "ERROR(S)"
+    echo "======================"
+    echo $errmsg
+    echo ""
+    echo "======================"
+fi
+echo "$errcnt test(s) failed"
+

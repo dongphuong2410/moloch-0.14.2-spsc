@@ -1,0 +1,18 @@
+### To build p0f library that is used by Xplico (libp0f will be created)
+$ ./build.sh lib
+
+### To enable POF, in xplico/Makefile, add this line : 
+# POF (OS Fingerprint function enable)
+CFLAGS += -DPOF=1
+
+### p0f configuration and signature file is p0f.mp, its path is configured in xplico.cfg file. For example : 
+#---- p0f configuration file
+POF_CONFIG=/IS-NI/xplico/cfg/p0f.fp
+
+### default p0f configuration file is at /IS-NI/xplico/cfg/p0f.fp
+### p0f.fp can be download at package/conf/p0f.fp    
+
+### es database url is configured in p0f.fp file, default is 127.0.0.1:9200
+es_host = "192.168.10.50:9200"
+
+

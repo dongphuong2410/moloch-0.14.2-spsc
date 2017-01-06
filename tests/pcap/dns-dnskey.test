@@ -1,0 +1,111 @@
+{
+   "packets" : [
+      {
+         "body" : {
+            "tags-term" : [
+               "srcip"
+            ],
+            "no" : "test",
+            "lp" : 1393428477,
+            "ps" : [
+               24
+            ],
+            "rir2" : "ARIN",
+            "pa" : 1,
+            "mac2-term" : [
+               "00:19:e2:ba:2f:c1"
+            ],
+            "fb1" : "f376011000010000",
+            "mac1-term-cnt" : 1,
+            "dnshocnt" : 1,
+            "db1" : 66,
+            "pa1" : 1,
+            "fp" : 1393428477,
+            "psl" : [
+               90
+            ],
+            "ss" : 1,
+            "prot-term-cnt" : 2,
+            "p1" : 53869,
+            "as1" : "AS0000 This is neat",
+            "p2" : 53,
+            "dnsho" : [
+               "<root>"
+            ],
+            "g1" : "RUS",
+            "pr" : 17,
+            "mac2-term-cnt" : 1,
+            "by" : 74,
+            "prot-term" : [
+               "udp",
+               "dns"
+            ],
+            "vlan-cnt" : 1,
+            "db" : 66,
+            "fpd" : 1393428477365,
+            "ta" : [
+               "srcip"
+            ],
+            "a1" : "10.0.0.1",
+            "a2" : "8.8.8.8",
+            "by1" : 74,
+            "fs" : [],
+            "mac1-term" : [
+               "00:1a:e3:dc:2e:c0"
+            ],
+            "lpd" : 1393428477365,
+            "db2" : 0,
+            "as2" : "AS15169 Google Inc.",
+            "vlan" : [
+               500
+            ],
+            "tacnt" : 1,
+            "test" : {
+               "ip-geo" : [
+                  "RUS"
+               ],
+               "ip-rir" : [
+                  ""
+               ],
+               "ip-asn" : [
+                  "AS0000 This is neat"
+               ],
+               "ip" : [
+                  167772161
+               ],
+               "string" : [
+                  "16777226:53869,134744072:53"
+               ],
+               "number" : [
+                  134744072
+               ]
+            },
+            "dns" : {
+               "qc-term" : [
+                  "IN"
+               ],
+               "qt-term" : [
+                  "DNSKEY"
+               ],
+               "opcode-term" : [
+                  "QUERY"
+               ],
+               "qc-term-cnt" : 1,
+               "qt-term-cnt" : 1,
+               "opcode-term-cnt" : 1
+            },
+            "g2" : "USA",
+            "sl" : 0,
+            "by2" : 0,
+            "pa2" : 0
+         },
+         "header" : {
+            "index" : {
+               "_index" : "tests_sessions-140226",
+               "_type" : "session"
+            }
+         }
+      }
+   ]
+}
+
