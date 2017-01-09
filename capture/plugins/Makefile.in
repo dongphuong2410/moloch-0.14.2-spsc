@@ -1,0 +1,32 @@
+CC            = @CC@
+
+INCLUDE_PCAP  = @PCAP_CFLAGS@
+INCLUDE_P0F  = @P0F_CFLAGS@
+INCLUDE_CURL_WRAPPER = @CURL_WRAPPER_CFLAGS@
+
+INCLUDE_OTHER = -I.. -I../thirdparty \
+                @GLIB2_CFLAGS@
+
+install_sh = @install_sh@
+mkdir_p = @mkdir_p@
+INSTALL = @INSTALL@
+PLUGINDIR = @prefix@/plugins
+WISEDIR = @prefix@/wiseService
+
+SRCS=$(wildcard *.c)
+SOS=$(SRCS:.c=.so)
+
+%.so : %.c ../moloch.h ../hash.h ../dll.h
+	$(CC) @SHARED_FLAGS@ -o $@ -O2 -ggdb -Wall -Wextra -D_GNU_SOURCE -fPIC $(INCLUDE_PCAP) $(INCLUDE_P0F) $(INCLUDE_CURL_WRAPPER) $(INCLUDE_OTHER) $<
+
+all:$(SOS)
+
+install:
+	test -z "$(PLUGINDIR)" || $(mkdir_p) "$(PLUGINDIR)"
+	$(INSTALL) *.so *.jade *.js $(PLUGINDIR)
+	test -z "$(WISEDIR)" || $(mkdir_p) "$(WISEDIR)"
+	$(INSTALL) wiseService/*.js wiseService/wiseService.ini.sample wiseService/package.json $(WISEDIR)
+	(cd $(WISEDIR) ; npm update)
+
+distclean realclean clean:
+	rm -f *.o *.so
