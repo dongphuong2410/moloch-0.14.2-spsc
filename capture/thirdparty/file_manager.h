@@ -9,7 +9,8 @@
 #define HTTP_STATUS_CODE 6
 #define HTTP_SAVEFILE 7
 
-#define STR_LEN 2048
+#define STR_LEN 1024
+#define URL_LEN 2048
 
 typedef struct _fm_t fm_t;
 

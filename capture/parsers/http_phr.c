@@ -38,7 +38,7 @@ typedef struct {
 } HTTPSaveHeader;
 
 typedef struct {
-    char uri[STR_LEN];
+    char uri[URL_LEN];
     char host[STR_LEN];
     char filepath[STR_LEN];
     char range[STR_LEN];
@@ -322,10 +322,14 @@ http_parse_success(HTTPInfo_t *http)
         moloch_field_string_add(methodField, session, http->method_p, http->method_len, TRUE);
         moloch_field_string_add(verReqField, session, version, len, TRUE);
         http->urlString = g_string_new_len(http->url_p, http->url_len);
-        char strUrl[STR_LEN];
-        strncpy(strUrl, http->url_p, http->url_len);
-        strUrl[http->url_len] = '\0';
-        strncpy(http->zmqdata.uri, strUrl, STR_LEN);
+        if (http->url_len >= URL_LEN - 1) {
+            strncpy(http->zmqdata.uri, http->url_p, URL_LEN - 1);
+            http->zmqdata.uri[URL_LEN] = '\0';
+        }
+        else {
+            strncpy(http->zmqdata.uri, http->url_p, http->url_len);
+            http->zmqdata.uri[http->url_len] = '\0';
+        }
     }
     //response
     else {
